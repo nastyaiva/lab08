@@ -1,3 +1,4 @@
+[![Build Status](https://app.travis-ci.com/nastyaiva/lab04.svg?token=SDfqyxdpu9kowJ9Dpxcj&branch=main)](https://app.travis-ci.com/nastyaiva/lab04)
 # lab02
 ```
 ~/nastyaiva/workspace ~/nastyaiva/workspace
