@@ -1,0 +1,231 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/nastya/nastyaiva/workspace/projects/lab07]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/nastya/nastyaiva/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.22.1
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `-H.`
+  `-B/home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14`
+  `-GUnix Makefiles`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/nastya/nastyaiva/workspace/projects/lab07/tools/polly/clang-cxx14.cmake`
+]
+[/home/nastya/nastyaiva/workspace/projects/lab07]> "cmake" "-H." "-B/home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/nastya/nastyaiva/workspace/projects/lab07/tools/polly/clang-cxx14.cmake"
+-- [polly] Used toolchain: clang / c++14 support
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:291 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:302 (CMAKE_DETERMINE_COMPILER_ID_WRITE)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:6 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake:59 (__determine_compiler_id_test)
+  /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:120 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:16 (project)
+
+
+-- The CXX compiler identification is unknown
+CMake Error: Could not open file for write in copy operation /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake.tmp
+CMake Error: : System Error: Inappropriate ioctl for device
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:226 (configure_file):
+  configure_file Problem configuring file
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (project)
+
+
+CMake Error: Could not find cmake module file: /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - failed
+-- Check for working CXX compiler: /usr/bin/clang++
+-- Check for working CXX compiler: /usr/bin/clang++ - broken
+-- Configuring incomplete, errors occurred!
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerABI.cmake:49 (try_compile):
+  Unknown extension ".cpp" for file
+
+    /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+
+  try_compile() works only for enabled languages.  Currently these are:
+
+    C CXX
+
+  See project() command to enable other languages.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)
+  CMakeLists.txt:16 (project)
+
+
+See also "/home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/CMakeOutput.log".
+See also "/home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/CMakeError.log".
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake:49 (try_compile):
+  Unknown extension ".cxx" for file
+
+    /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+
+  try_compile() works only for enabled languages.  Currently these are:
+
+    C CXX
+
+  See project() command to enable other languages.
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (project)
+
+
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake:62 (message):
+  The C++ compiler
+
+    "/usr/bin/clang++"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+
+
+
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (project)
+
+

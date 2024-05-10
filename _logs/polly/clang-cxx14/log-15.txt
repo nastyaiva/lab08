@@ -1,0 +1,81 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/nastya/nastyaiva/workspace/projects/lab07]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/nastya/nastyaiva/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.22.1
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `-H.`
+  `-B/home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14`
+  `-GUnix Makefiles`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/nastya/nastyaiva/workspace/projects/lab07/tools/polly/clang-cxx14.cmake`
+  `-DCMAKE_VERBOSE_MAKEFILE=ON`
+  `-DPOLLY_STATUS_DEBUG=ON`
+  `-DHUNTER_STATUS_DEBUG=ON`
+]
+[/home/nastya/nastyaiva/workspace/projects/lab07]> "cmake" "-H." "-B/home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/nastya/nastyaiva/workspace/projects/lab07/tools/polly/clang-cxx14.cmake" "-DCMAKE_VERBOSE_MAKEFILE=ON" "-DPOLLY_STATUS_DEBUG=ON" "-DHUNTER_STATUS_DEBUG=ON"
+-- [hunter *** DEBUG *** 2024-05-10T16:44:40] HUNTER_ROOT set using HOME environment variable
+-- [hunter *** DEBUG *** 2024-05-10T16:44:40] HUNTER_ROOT: /root/.hunter
+-- [hunter *** DEBUG *** 2024-05-10T16:44:40] Settings (initialize):
+-- [hunter *** DEBUG *** 2024-05-10T16:44:40]   HunterGate done (NO)
+-- [hunter *** DEBUG *** 2024-05-10T16:44:40]   Cache init (NO)
+-- [polly] Used toolchain: clang / c++14 support
+-- [polly *** DEBUG ***] Used tag: clang-cxx14
+-- [polly *** DEBUG ***] CMAKE_DEBUG_POSTFIX is empty
+-- [polly *** DEBUG ***] CMAKE_DEBUG_POSTFIX set to 'd'
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - failed
+-- Check for working CXX compiler: /usr/bin/clang++
+-- Check for working CXX compiler: /usr/bin/clang++ - broken
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake:62 (message):
+  The C++ compiler
+
+    "/usr/bin/clang++"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/CMakeTmp
+
+    Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_67d6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_67d6a.dir/build.make CMakeFiles/cmTC_67d6a.dir/build
+    gmake[1]: вход в каталог «/home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/CMakeTmp»
+    Building CXX object CMakeFiles/cmTC_67d6a.dir/testCXXCompiler.cxx.o
+    /usr/bin/clang++   -std=c++14  -std=c++14 -MD -MT CMakeFiles/cmTC_67d6a.dir/testCXXCompiler.cxx.o -MF CMakeFiles/cmTC_67d6a.dir/testCXXCompiler.cxx.o.d -o CMakeFiles/cmTC_67d6a.dir/testCXXCompiler.cxx.o -c /home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+    Linking CXX executable cmTC_67d6a
+    /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67d6a.dir/link.txt --verbose=1
+    /usr/bin/clang++ -std=c++14  CMakeFiles/cmTC_67d6a.dir/testCXXCompiler.cxx.o -o cmTC_67d6a
+    /usr/bin/ld: невозможно найти -lstdc++: Нет такого файла или каталога
+    clang: error: linker command failed with exit code 1 (use -v to see invocation)
+    gmake[1]: *** [CMakeFiles/cmTC_67d6a.dir/build.make:100: cmTC_67d6a] Ошибка 1
+    gmake[1]: выход из каталога «/home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/CMakeTmp»
+    gmake: *** [Makefile:127: cmTC_67d6a/fast] Ошибка 2
+
+
+
+
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/CMakeOutput.log".
+See also "/home/nastya/nastyaiva/workspace/projects/lab07/_builds/clang-cxx14/CMakeFiles/CMakeError.log".
